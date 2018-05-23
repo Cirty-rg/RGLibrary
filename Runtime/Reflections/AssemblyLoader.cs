@@ -1,4 +1,11 @@
-﻿using System.Collections.Generic;
+﻿/*
+Copyright (c) [2018] [cirty]
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+*/
+
+using System.Collections.Generic;
 using System.Reflection;
 
 namespace RGSoft.Reflections

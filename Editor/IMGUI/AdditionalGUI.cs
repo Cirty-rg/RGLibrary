@@ -1,4 +1,11 @@
-﻿// ReSharper disable InconsistentNaming
+﻿/*
+Copyright (c) [2018] [cirty]
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+*/
+
+// ReSharper disable InconsistentNaming
 
 using RGSoft.Linq;
 using System;

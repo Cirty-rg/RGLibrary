@@ -1,4 +1,11 @@
-﻿namespace RGSoft.NativeApi
+﻿/*
+Copyright (c) [2018] [cirty]
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+*/
+
+namespace RGSoft.NativeApi
 {
 	/// <summary>
 	/// Flag used in the console.
