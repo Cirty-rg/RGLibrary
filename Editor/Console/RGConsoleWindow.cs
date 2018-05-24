@@ -234,25 +234,20 @@ namespace RGSoft.Debuggers
 
 		public void AddItemsToMenu(GenericMenu menu)
 		{
-			menu.AddItem(new GUIContent("Preferences"), false, OpenConfigurationWindow);
-			menu.AddItem(new GUIContent("TestLog"), false, DebugLog);
+			menu.AddItem(new GUIContent("TestLogs"), false, DebugLog);
 		}
 
 		private void DebugLog()
 		{
 			Debug.Log("[Log] Log");
 			Debug.Log("[Log] LoooooooooooooooooooooooooooooooooooooooooooongLog");
-			Debug.LogWarning("[Warning] WarningLog");
-			Debug.LogError("[Error] ErrorLog");
-			Debug.LogException(new Exception("[Exception] ExceptionLog"));
-			Debug.LogAssertion("[Assert] AssertLog");
+			Debug.LogWarning("[Warning] LogWarning");
+			Debug.LogError("[Error] LogError");
+			Debug.LogException(new Exception("[Exception] LogException"));
+			Debug.LogAssertion("[Assert] LogAssertion");
 			Debug.Assert(false, "[Assert] Assert");
 		}
 
-		private void OpenConfigurationWindow()
-		{
-			PreferencesWindow.Open();
-		}
 	}
 }
 
